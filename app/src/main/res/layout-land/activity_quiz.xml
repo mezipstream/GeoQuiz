@@ -3,16 +3,16 @@
              android:layout_height="match_parent">
 
     <TextView
-        android:layout_gravity="center_horizontal"
         android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:padding="24dp"/>
 
     <LinearLayout
-        android:layout_gravity="center_vertical|center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
         android:orientation="horizontal">
 
         <Button
@@ -29,12 +29,18 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/cheat_button"/>
 
     <Button
-        android:layout_gravity="bottom|right"
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
         android:drawableRight="@drawable/arrow_right"
         android:text="@string/next_button"/>
 
